@@ -24,10 +24,34 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="80dp"
-        android:layout_height="36dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:layout_width="353dp"
+        android:layout_height="227dp"
+        android:text="El Colegio Técnico Profesional Vázquez de Coronado es una institución educativa con una amplia oferta educativa para toda la comunidad El Colegio Técnico Vázquez de Coronado fue fundado en el 2009, brindando una oportunidad educativa a toda la comunidad, con especialidades técnicas tales como: Administración y Operación Aduanera, Banca y Finanzas, Contabilidad, Ejecutivo para Centros de Servicios, Diseño Publicitario, Secretariado, Productividad y Calidad."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quienes somos?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:src="@drawable/logo_ctp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
