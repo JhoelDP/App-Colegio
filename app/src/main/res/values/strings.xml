@@ -4,4 +4,6 @@
     <string name="title_dashboard">Especialidades</string>
     <string name="title_notifications">Contáctanos</string>
     <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="descripcion_conta">Carrera tecnica Contabilidad</string>
 </resources>
