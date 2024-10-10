@@ -38,7 +38,9 @@
         android:text="¿Quiénes somos?"
         android:textColor="@color/black"
         android:textSize="27sp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="136dp" />
 
     <TextView
         android:id="@+id/textView2"
