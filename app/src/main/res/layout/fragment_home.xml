@@ -32,6 +32,15 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Quiénes somos?"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="207dp"
         android:layout_height="69dp"
@@ -62,20 +71,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.41" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¿Quiénes somos?"
-        android:textColor="@color/black"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="190dp"
@@ -88,5 +83,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.732" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="375dp"
+        android:layout_height="176dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="518dp"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

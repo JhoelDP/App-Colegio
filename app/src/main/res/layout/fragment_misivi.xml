@@ -8,27 +8,29 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="233dp"
-        android:layout_height="51dp"
-        android:text="TextView"
+        android:layout_width="362dp"
+        android:layout_height="89dp"
+        android:text="Somos un colegio técnico que porporciona servicios educativos en forma integral acorde con las demandas de un mundo globalizado."
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.673"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.225" />
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="233dp"
-        android:layout_height="51dp"
-        android:text="TextView"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:text="Ser una comunidad educativa de excelencia, reconocida como lider en la formación integral de personas capaces de cumplir las demandas de un mundo globalizado."
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.659" />
 
     <TextView
         android:id="@+id/textView19"
@@ -55,10 +57,18 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.524" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/_468358"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="344dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -81,11 +91,4 @@
         tools:layout_editor_absoluteX="236dp"
         tools:layout_editor_absoluteY="75dp" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="118dp"
-        android:layout_height="72dp"
-        app:srcCompat="@drawable/_468358"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="348dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
