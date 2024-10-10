@@ -12,8 +12,14 @@
         android:title="Especialidades" />
 
     <item
+        android:id="@+id/navigation_misivi"
+        android:icon="@drawable/baseline_book_24"
+        android:title="Misión y Visión" />
+    <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="Nosotros" />
+
+
 
 </menu>
