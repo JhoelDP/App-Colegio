@@ -7,12 +7,32 @@
     android:background="@color/white"
     tools:context=".ui.home.HomeFragment">
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="428dp"
+        android:layout_height="76dp"
+        android:background="#9b9b9b"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="440dp"
+        android:layout_height="94dp"
+        android:background="#0CB7F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="206dp"
         android:layout_height="49dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Bienvenido"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +59,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quienes somos?"
+        android:text="¿Quiénes somos?"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,13 +71,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="148dp"
         android:layout_marginBottom="108dp"
         android:src="@drawable/logo_ctp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2"
         app:layout_constraintVertical_bias="1.0" />
