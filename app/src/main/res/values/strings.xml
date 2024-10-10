@@ -3,4 +3,5 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Especialidades</string>
     <string name="title_notifications">Contáctanos</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
