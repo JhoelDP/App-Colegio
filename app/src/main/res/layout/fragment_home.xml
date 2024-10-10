@@ -8,14 +8,6 @@
     tools:context=".ui.home.HomeFragment">
 
     <View
-        android:id="@+id/view2"
-        android:layout_width="428dp"
-        android:layout_height="76dp"
-        android:background="#9b9b9b"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="30dp" />
-
-    <View
         android:id="@+id/view"
         android:layout_width="440dp"
         android:layout_height="94dp"
@@ -25,6 +17,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="428dp"
+        android:layout_height="76dp"
+        android:background="#00008B"
+        android:elevation="8dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <TextView
         android:id="@+id/textView2"
