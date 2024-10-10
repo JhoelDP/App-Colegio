@@ -6,4 +6,10 @@
     <string name="title_activity_maps">MapsActivity</string>
 
     <string name="descripcion_conta">Carrera tecnica Contabilidad</string>
+    <string name="descripcion_banca">Carrera tecnica Banca y Finanzas</string>
+    <string name="descripcion_diseno">Carrera tecnica Diseño Publicitario</string>
+    <string name="descripcion_software">Carrera tecnica de Desarrollo de Software</string>
+    <string name="descripcion_secre">Carrera tecnica Secretarioado Ejecutivo</string>
+    <string name="descripcion_ejecutivo">Carrera tecnica Ejecutivo Comercial</string>
+
 </resources>
