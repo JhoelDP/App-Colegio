@@ -27,7 +27,7 @@ public class VideoActivity extends AppCompatActivity {
         videoView.start();
     }
 
-    @Override
+
     protected void onPause() {
         super.onPause();
         if (videoView.isPlaying()) {

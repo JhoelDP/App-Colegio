@@ -5,6 +5,10 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_home">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fragment_misivi.xml" />
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.appliedresearch.ctp.ui.home.HomeFragment"
